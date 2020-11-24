@@ -3,6 +3,19 @@
   background-color: #eaf6f6;
 
 } */
+ul {
+    width: 70%;
+    margin: auto;
+    list-style-type:none;
+}
+
+li {
+  text-align: center;
+}
+
+.hidden {clear: both;
+    visibility: hidden;
+}
 .pro {
   text-decoration: underline;
 }
@@ -18,7 +31,7 @@ h1 {
   font-size: 562.5%;
   margin: 50px auto 0 auto;
   line-height: 2;
-  font-family: 'Sacramento', serif;
+  font-family: 'Montserrat', serif;
   color: #66BFBF;
 }
 
@@ -54,16 +67,17 @@ text-decoration: none;}
 
 a:hover{color: #eaf6f6;}
 
-.sax-image {
-  width: 25%;
-  float: right;
-  margin-right: 30px;
-}
-
 .computer-image {
   width: 25%;
   float: left;
   margin-left: 30px;
+}
+
+.sax-image {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+  padding-bottom: 10px;
 }
 
 .skill-row {
